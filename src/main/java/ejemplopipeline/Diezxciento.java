@@ -38,6 +38,7 @@ public class Diezxciento {
 	
 	public int saldoAhorro() {
 		double noventaxciento = ahorro * 0.9;
+		System.out.println("Saldo Ahorro "+noventaxciento);
 		return (int) noventaxciento;
 	}
 
